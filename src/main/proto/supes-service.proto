@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "supes.proto";
+
+package com.example.supes.grpc;
+
+service SupesService {
+  rpc getRandomHero(Empty) returns (Hero) {}
+  rpc getRandomVillain(Empty) returns (Villain) {}
+
+  rpc getHeroes(Empty) returns (stream Hero) {}
+  rpc getVillains(Empty) returns (stream Villain) {}
+
+}
