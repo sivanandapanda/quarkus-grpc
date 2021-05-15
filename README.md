@@ -1,4 +1,4 @@
-https://api.travis-ci.com/sivanandapanda/quarkus-grpc.svg?branch=main
+[![Build Status](https://www.travis-ci.com/sivanandapanda/quarkus-grpc.svg?branch=main)](https://www.travis-ci.com/sivanandapanda/quarkus-grpc)
 
 # grpcurl to list all services
 
